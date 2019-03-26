@@ -2,7 +2,7 @@
 int main(){
     int row,col,n;
     char s;
-    scanf("%d %d",&n,&s);//
+    scanf("%d %c",&n,&s);//
 
     if(n%2==0){
         row=n/2;//hang
@@ -15,7 +15,7 @@ int main(){
 
     for(int i=0;i<col;i++)
     {
-        printf("%c",&s);
+        printf("%c",s);
     } 
     printf("\n");
 
